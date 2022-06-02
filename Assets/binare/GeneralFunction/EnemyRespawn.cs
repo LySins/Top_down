@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyRespawn : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
         
@@ -14,5 +14,8 @@ public class EnemyRespawn : MonoBehaviour
     void Update()
     {
         
+    }
+    void RespawnEnemy ()
+    {
     }
 }
