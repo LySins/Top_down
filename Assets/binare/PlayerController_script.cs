@@ -25,6 +25,7 @@ public class PlayerController_script : MonoBehaviour
         _directon.y = Input.GetAxisRaw("Vertical");
     
     }
+    
 
 
     void FixedUpdate()

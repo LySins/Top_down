@@ -10,13 +10,15 @@ public class EnemyFollow : MonoBehaviour
     protected float _directionY;
     protected float _directionX;
     protected Vector3 _position; 
- 
+
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         _position.Normalize();
 
+
     }
+    
  
     void LateUpdate()
     {
