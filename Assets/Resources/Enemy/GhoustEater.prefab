@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemySpeed: 15
-  _agroRange: 1
+  _agroRange: 30
   _stopEnemyPoint: 1
   _GiveEnemyDamage: 10
   _playerPosition: {fileID: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speedMove: 3
-  _agroRange: 5
+  _agroRange: 30
 --- !u!114 &7341638243164147654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   _enemyDamage: 1
   _waitAttackTime: 5
   _ratingScore: 10
-  _otherPlayer: {fileID: 0}
+  _otherPlayer: {fileID: 3520041838670437294, guid: 7cbeca91603aee94fa5e8e2c64762325, type: 3}
 --- !u!1 &7341638243995047242
 GameObject:
   m_ObjectHideFlags: 0

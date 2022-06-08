@@ -25,6 +25,7 @@ public class PlayerInteraction : MonoBehaviour
     }
     void Start()
     {
+        _scorePlayer = 0;
         _playerCapsulColider2d  = GetComponent<CapsuleCollider2D>();
     }
     private void OnTriggerStay2D(Collider2D other)
@@ -38,6 +39,7 @@ public class PlayerInteraction : MonoBehaviour
 
     public void PlayerDead()
     {
+        _scorePlayer = 0;
         SceneManager.LoadScene("DeathMenu");
     }
     public void HealingPlayer(int _nominalHeal)

@@ -10,7 +10,7 @@ public class ScoreImage : MonoBehaviour
     [SerializeField] Text _scoreText;
     void Start()
     {
-        
+        _score = 0;      
     }
 
     // Update is called once per frame
