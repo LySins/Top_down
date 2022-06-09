@@ -1,0 +1,16 @@
+{
+    "name": "ScoreValuesTest",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2fa313f457037e04287560b6aeeb581e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

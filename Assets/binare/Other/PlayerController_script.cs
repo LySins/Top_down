@@ -7,15 +7,12 @@ public class PlayerController_script : MonoBehaviour
     public float _speed = 20;
     private Vector2 _directon;
     private Vector3 mouse;
-    private Rigidbody2D _rigidbody;
-
+    public Rigidbody2D _rigidbody;
     public bool _facingRight = true;
         void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _speed=5f;
-        
-        
+        _speed=5f;       
     }
 
     // Update is called once per frame
@@ -26,8 +23,6 @@ public class PlayerController_script : MonoBehaviour
     
     }
     
-
-
     void FixedUpdate()
     {   
         _directon.Normalize();

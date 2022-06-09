@@ -4,6 +4,9 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
+        "AttackTest",
+        "ScriptGF",
+        "ScoreValuesTest",
         "Scripts"
     ],
     "includePlatforms": [],

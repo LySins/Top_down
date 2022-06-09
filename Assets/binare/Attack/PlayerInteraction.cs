@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public int _healthPlayer = 100;
+    public int _healthPlayer = 5000;
     public int _damagePlayer = 10;
     public int _scorePlayer = 0;
     private bool _idicateActiveFire = false;

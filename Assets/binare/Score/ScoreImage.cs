@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreImage : MonoBehaviour
 {
     public GameObject _playerGameObject;
-    public int _score;
+    public int _score = 0;
     [SerializeField] Text _scoreText;
     void Start()
     {

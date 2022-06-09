@@ -4,7 +4,10 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Scripts"
+        "Scripts",
+        "ScriptGF",
+        "ScoreValuesTest",
+        "AttackTest"
     ],
     "includePlatforms": [
         "Editor"

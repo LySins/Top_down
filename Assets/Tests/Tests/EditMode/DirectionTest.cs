@@ -13,5 +13,7 @@ public class DirectionTest
         float _speedTester = gameobject.AddComponent<PlayerController_script>()._speed;
         Assert.AreEqual(20,_speedTester);
     }
+
+   
  
 }

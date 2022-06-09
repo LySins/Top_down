@@ -16,10 +16,6 @@ public class EnemyRespawn : MonoBehaviour
         RespawnEnemy();
     }
 
-    void Update()
-    {
-        
-    }
     void RespawnEnemy ()
     {
         StartCoroutine(SpawnEnemyCD());

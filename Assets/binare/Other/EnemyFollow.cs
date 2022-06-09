@@ -16,7 +16,6 @@ public class EnemyFollow : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         _position.Normalize();
 
-
     }
     
  
