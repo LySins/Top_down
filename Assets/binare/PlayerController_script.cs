@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController_script : MonoBehaviour
 {
-    public float _speed;
+    public float _speed = 20;
     private Vector2 _directon;
     private Vector3 mouse;
     private Rigidbody2D _rigidbody;
